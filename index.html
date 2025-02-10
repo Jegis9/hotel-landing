@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos1.css">
+    <title>Hotel Champerico</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/estilos.css">
+    <link rel="icon" type="image/x-icon" href="/Imagenes/Fondo.png">
+    <!--LINK DE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Chakma&family=Oxygen:wght@300&display=swap" rel="stylesheet">
+    <!--LINKS DE ICONOS BOOSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+<body>
+<!--INICIO DE NAVBAR-->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top bg-light text-dark">
+            <div class="container-fluid">
+              <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="Icon-var">
+                    <img src="/Imagenes/LOGO.png" alt="" width="90px" height="45px">
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link rounded-pill" aria-current="page" href="#O"> Sobre Nosotros</a>
+                  </li>
+                  <li class="nav-item " >
+                    <a class="nav-link rounded-pill" href="#reseñas">Reseñas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link rounded-pill" href="#acordeones">Preguntas Frecuentes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link rounded-pill" aria-current="page" href="#habitaciones"> Habitaciones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link rounded-pill" href="#info">Contactanos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+<!--FIN DE NAVBAR-->
+    <main>
+<!--INICIO CARRUSEL -->
+<div id="carouselExampleFade" class="carousel slide carousel-fade  carousel-light" data-bs-ride="carousel">
+      
+  <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators " data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1 " ></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+  <div class="carousel-inner" id="O">
+    <div class="carousel-item Carruse-principal active" data-bs-interval="10000">
+       <!--INICIO DE TEXTO DENTRO DE CARRUSEL-->
+      <div class="ofrece">
+      <h1>Trust and Transparency</h1>
+      <p>Everything as planned, reducing the risks of errors</p>
+      </div>
+       <!--FIN DE TEXTO DENTRO DE CARRUSEL-->
+      <img src="Imagenes/I1.jpg" class="d-block w-100" alt="Interior1" height="752">
+    </div>
+    <div class="carousel-item Carruse-principal" data-bs-interval="10000">
+      <!--INICIO DE TEXTO DENTRO DE CARRUSEL-->
+      <div class="ofrece">
+        <h1>We have the best specialists in the country</h1>
+        <p>We use the best diagnostic and analysis technologies for its construction</p>
+      </div>
+       <!--FIN DE TEXTO DENTRO DE CARRUSEL-->
+      <img src="Imagenes/I2.jpg" class="d-block w-100" alt="Interior2" height="752">
+    </div>
+    <div class="carousel-item Carruse-principal" data-bs-interval="10000">
+        <!--INICIO DE TEXTO DENTRO DE CARRUSEL-->
+        <div class="ofrece">
+        <h1>Trained professionals with years of experience</h1>
+        <p>We guarantee the durability, accessibility and comfort of your home</p>
+        </div>
+        <!--FIN DE TEXTO DENTRO DE CARRUSEL-->                
+      <img src="Imagenes/I3.jpg" class="d-block w-100" alt="Interior3" height="752">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="text-white visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="text-white visually-hidden">Next</span>
+  </button>
+  
+</div>
+
+<!--FIN CARRUSEL-->
+
+
+
+</div>
+
+<!--HABITACIONES 1-->
+<div class="container contenedor-habitaciones" id="habitaciones">
+  <h1>Habitaciones y Paquetes</h1>
+  <div class="row">
+  <div class="card col-4" style="width: 18rem;">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item Carrusel-habitaciones active">
+          <img src="Imagenes/H1I1.jpg" class="d-block w-100 " width="200px" height="190px" alt="Habitacion 1">
+        </div>
+        <div class="carousel-item Carrusel-habitaciones">
+          <img src="Imagenes/H1I2.jpg" class="d-block w-100" width="200px" height="190px" alt="Habitacion 1">
+        </div>
+        <div class="carousel-item Carrusel-habitaciones">
+          <img src="Imagenes/H1I3.jpg" class="d-block w-100" width="200px" height="190px" alt="Habitacion 1">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title  text-center">Básica</h5>
+      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab dolore recusandae commodi distinctio similique deserunt esse sint officia consequuntur accusantium!</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">1 Baño</li>
+      <li class="list-group-item">Psicina General</li>
+      <li class="list-group-item">2 Camas</li>
+    </ul>
+    
+    <div class="card-body">
+      <a href="https://www.youtube.com/watch?v=teprNzF6J1I&list=RDKJXqJfPkoo0&index=10" class="card-link" target="_blank"><button type="button" class="btn btn-primary">Video</button></a>
+
+      <a href="https://www.youtube.com/watch?v=teprNzF6J1I&list=RDKJXqJfPkoo0&index=10" class="card-link" target="_blank"><button type="button" class="btn btn-primary">Reservar</button></a>
+    </div>
+  </div>
+
+
+
+
+<!--HABITACIONES 2-->
+  <div class="card card-luxe col-4 " style="width: 20rem;">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item Carrusel-habitaciones active">
+          <img src="/Imagenes/H3I1.jpg" class="d-block w-100" width="200px" height="190px" alt="Habitacion 3 ">
+        </div>
+        <div class="carousel-item Carrusel-habitaciones">
+          <img src="/Imagenes/H3I2.jpg" class="d-block w-100" width="200px" height="190px" alt="Habitacion 3 ">
+        </div>
+        <div class="carousel-item Carrusel-habitaciones">
+          <img src="/Imagenes/H3I3.jpg" class="d-block w-100" width="200px" height="190px" alt="Habitacion 3 ">
+        </div>
+        <div class="carousel-item Carrusel-habitaciones">
+          <img src="/Imagenes/H3I4.jpg" class="d-block w-100" width="200px" height="190px" alt="Habitacion 3 ">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    </div>
+    
+    <div class="card-body">
+      <h5 class="card-title  text-center">Luxe</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo dignissimos consectetur aut fugiat ipsam ad consequuntur ex sit itaque asperiores.</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">5 baños</li>
+      <li class="list-group-item">Piscina y jacuzzi propios</li>
+      <li class="list-group-item">10 Habitaciones</li>
+    </ul>
+    <div class="card-body">
+      <a href="https://www.youtube.com/watch?v=teprNzF6J1I&list=RDKJXqJfPkoo0&index=10" class="card-link" target="_blank"><button type="button" class="btn btn-primary">Video</button></a>
+
+      <a href="https://www.youtube.com/watch?v=teprNzF6J1I&list=RDKJXqJfPkoo0&index=10" class="card-link" target="_blank"><button type="button" class="btn btn-primary">Reservar</button></a>
+      <div class="spinner-grow text-danger" role="status">
+      </div>
+    </div>
+  </div>
+<!--HABITACIONES 3-->
+  <div class="card col-4" style="width: 18rem;">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item Carrusel-habitaciones active">
+          <img src="Imagenes/H2I1.jpg" class="d-block w-100" width="200px" height="190px" alt="Habitacion 2">
+        </div>
+        <div class="carousel-item Carrusel-habitaciones">
+          <img src="Imagenes/H2I2.jpg" class="d-block w-100" width="200px" height="190px" alt="Habitacion 2">
+        </div>
+        <div class="carousel-item Carrusel-habitaciones">
+          <img src="Imagenes/H2I3.jpg" class="d-block w-100"  width="200px" height="190px" alt="Habitacion 2">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title  text-center">VIP</h5>
+      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab dolore recusandae commodi distinctio similique deserunt esse sint officia consequuntur accusantium!</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">2 baños</li>
+      <li class="list-group-item">Pscina pequeña propia</li>
+      <li class="list-group-item">3 habitaciones</li>
+    </ul>
+    <div class="card-body">
+      <a href="https://www.youtube.com/watch?v=teprNzF6J1I&list=RDKJXqJfPkoo0&index=10" class="card-link" target="_blank"><button type="button" class="btn btn-primary">Video</button></a>
+
+      <a href="https://www.youtube.com/watch?v=teprNzF6J1I&list=RDKJXqJfPkoo0&index=10" class="card-link" target="_blank"><button type="button" class="btn btn-primary">Reservar</button></a>
+    </div>
+  </div>
+  
+
+  
+
+
+</div>
+</div>
+<!--HABITACIONES-->
+
+
+<!--FIN DE IMAGEN Y TEXTO INICIAL-->
+
+<div class="container container-r" id="reseñas">
+  <h1 ><u>Reseñas</u></h1>
+  <br>
+  <div class="row">
+    <div class="col">
+      <table class="table table-secondary table-hover" >
+        <thead>
+          <th>Usuario</th>
+          <th>Comentarios</th>
+          <th>Reseñas</th>
+        </thead>
+        <tbody class="table-group-divider table-light ">
+          <tr>
+          <td> <img src="/Imagenes/sofia.png" alt="" width="50ox" height="50px"> Sofia</td>
+          <td>Excelente lugar para pararla con amigos y familia</td>
+          <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td> <img src="/Imagenes/fernando.png" alt="" width="50px" height="50px"> Fernando</td>
+            <td>Buen lugar para ir con la familia, precios un poco caros</td>
+            <td>⭐⭐⭐⭐</td>
+          </tr>
+
+          <tr>
+            <td><img src="/Imagenes/merlina.png" width="50px" height="50px" alt=""> Merlina  </td>
+            <td>Fui con mis amigos a este lugar, me lo recomendaron y lo recomiendo, piscinas y habitaciones muy limpias, tal como las fotos</td>
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+
+          <tr>
+            <td> <img src="/Imagenes/andres.png" alt="" height="50px" width="50px"> Andres</td>
+            <td>Buen lugar para un fin de semana</td>
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!-----------------------INICIO ACORDEONES------------------------------>
+<br><br><br>
+
+<div class="container" id="acordeones">
+  <h1>Preguntas Frecuentes</h1>
+
+  <div class="row">
+    <!--PRIMER ACORDEON-->
+    <div class="accordion col-5" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed bg-primary text-light " type="button" data-bs-toggle="collapse" data-bs-target="#Primer" aria-expanded="false" aria-controls="Primer">
+            ¿Quienes somos?
+          </button>
+        </h2>
+        <div id="Primer" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nemo fugiat beatae a alias laborum vitae doloremque natus, delectus voluptatibus pariatur enim aliquid repellendus dolorum qui blanditiis explicabo quo vero eaque velit voluptate possimus deserunt molestiae? Quis perspiciatis neque voluptates aperiam corrupti explicabo delectus. Expedita voluptates consequuntur repudiandae inventore maxime.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed bg-primary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#Segundo" aria-expanded="false" aria-controls="Segundo">
+            Años de experiencia
+          </button>
+        </h2>
+        <div id="Segundo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam quis sunt vitae. Error debitis culpa accusamus hic distinctio beatae provident deserunt minima alias ullam! Tempore veritatis, cumque vero et, a necessitatibus neque odio fuga sapiente maiores aperiam. Corrupti pariatur quam neque, possimus eum repellat odio laborum, vel natus id debitis!
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed bg-primary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#Tercero" aria-expanded="false" aria-controls="Tercero">
+            Establecimiento pet friendly
+          </button>
+        </h2>
+        <div id="Tercero" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad amet in inventore voluptate suscipit, totam a quasi voluptas deleniti alias eum optio et fugit excepturi laudantium eos illo illum ducimus assumenda nam, provident soluta, nulla ipsum! Veritatis esse eligendi ducimus quos velit dolorum, quas quaerat soluta? Aliquid fugit aperiam error.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--SEGUNDO ACORDEON-->
+    <div class="accordion col-5" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed bg-primary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#Primer-Segundo" aria-expanded="false" aria-controls="Primer-Segundo">
+            Métodos de pago
+          </button>
+        </h2>
+        <div id="Primer-Segundo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus ipsum deserunt voluptatum provident cupiditate ratione distinctio quidem at magni sed facere, veritatis necessitatibus dolor aliquid ducimus. Quod, nisi obcaecati. Nobis eligendi quas neque adipisci similique voluptatibus ducimus illo totam, ab sunt commodi numquam labore enim veritatis vel culpa repellat quae.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed bg-primary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#Segundo-Segundo" aria-expanded="false" aria-controls="Segundo-Segundo">
+            Reservaciones para fiestas privadas
+          </button>
+        </h2>
+        <div id="Segundo-Segundo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, ullam nobis debitis repellat nisi temporibus reiciendis, architecto adipisci beatae quasi aspernatur totam iusto alias laborum harum exercitationem, quaerat magni ea! Quibusdam, a suscipit eos tenetur minima iste pariatur sapiente vero, eaque quam fugit incidunt nulla reiciendis sit nam, officia doloremque.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed bg-primary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#Tercero-Segundo" aria-expanded="false" aria-controls="Tercero-Segundo">
+            Trabaja con nosotros
+          </button>
+        </h2>
+        <div id="Tercero-Segundo" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+<!----------------------- FIN ACORDEONES------------------------------>
+
+
+
+<br>
+<br>
+
+    </main>
+
+
+    <footer class="pie-pagina" id="info">
+      <div class="grupo-1">
+        <div class="box">
+          <figure>
+            <a href="#">
+              <img src="/Imagenes/logo-pie-pagina.png" alt="logo">
+            </a>
+          </figure>
+        </div>
+        <div class="box">
+          <h2>Contactanos</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, vel?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, voluptatibus.</p>
+        </div>
+        <div class="box">
+          <h2>
+            Siguenos
+          </h2>
+          <div class="red-social">
+            <a href="#"><i class="bi bi-facebook text-primary"></i></a>
+            <a href="#"><i class="bi bi-tiktok text-warning"></i></a>
+            <a href="#"><i class="bi bi-instagram text-success"></i></a>
+            <a href="#"><i class="bi bi-youtube text-danger"></i></a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="grupo-2">
+        <small>&copy; 2022 - <b>Champerico GT </b>-  Todos los derechos reservados</small>
+      </div>
+    </footer>
+
+ 
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
